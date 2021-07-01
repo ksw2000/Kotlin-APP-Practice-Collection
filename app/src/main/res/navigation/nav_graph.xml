@@ -10,9 +10,5 @@
         android:name="com.example.myFirstKotlinApp.FirstFragment"
         android:label="@string/first_fragment_label"
         tools:layout="@layout/fragment_first">
-        <argument
-            android:name="myArg"
-            app:argType="integer"
-            android:defaultValue="0" />
     </fragment>
 </navigation>
