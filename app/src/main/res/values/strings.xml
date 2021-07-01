@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">My First Kotlin App</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Kotlin Demo Home Page</string>
+    <string name="show_pushed_times">You have pushed the button this many times:</string>
+</resources>
