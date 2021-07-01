@@ -1,2 +1,6 @@
 # My_First_Kotlin_App
- My first kotlin app see like flutter.
+
+Look like flutter demo App :smile: 
+
+![](https://i.imgur.com/9u2e48Z.png)
+
