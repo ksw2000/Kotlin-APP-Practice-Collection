@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OrderForm">
+
+    <TextView
+        android:id="@+id/textViewIce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="冰塊"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupIce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@+id/textViewIce"
+        app:layout_constraintTop_toBottomOf="@+id/textViewIce">
+
+        <RadioButton
+            android:id="@+id/radioGroupIceElement1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="正常" />
+
+        <RadioButton
+            android:id="@+id/radioGroupIceElement2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="少冰" />
+
+        <RadioButton
+            android:id="@+id/radioGroupIceElement3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="微冰" />
+
+        <RadioButton
+            android:id="@+id/radioGroupIceElement4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="去冰" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textViewSugar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="甜度"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/textViewIce"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroupIce" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupSugar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@+id/textViewSugar"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSugar">
+
+        <RadioButton
+            android:id="@+id/radioGroupSugarElement1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="正常" />
+
+        <RadioButton
+            android:id="@+id/radioGroupSugarElement2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="少糖" />
+
+        <RadioButton
+            android:id="@+id/radioGroupSugarElement3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="半糖" />
+
+        <RadioButton
+            android:id="@+id/radioGroupSugarElement4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="微糖" />
+
+        <RadioButton
+            android:id="@+id/radioGroupSugarElement5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="無糖" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="送出"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroupSugar" />
+</androidx.constraintlayout.widget.ConstraintLayout>

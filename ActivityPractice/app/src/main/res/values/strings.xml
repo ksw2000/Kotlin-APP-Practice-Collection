@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">跳頁傳值示範</string>
+    <string name="order_text">點餐:</string>
+    <string name="order_button">選擇餐點</string>
+</resources>
